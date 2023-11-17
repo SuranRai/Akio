@@ -1,0 +1,97 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Akio</title>
+    <style>
+      html  {
+        background-color: aliceblue;
+        margin: 0;
+        padding: 0;
+      }
+      #para {
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-size: x-large;
+        font-weight: bolder;
+
+      }
+      #title {
+        background-color: white;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: xx-large;
+        text-align: center;
+        text-transform: uppercase;
+      }
+     #allim  {
+     }
+     #first {
+      width: 650px;
+      height: 450px;
+     
+      margin-left:10px;
+     }
+     #second  {
+      width: 650px; height: 450px;
+      margin-right: 20px;
+     }
+     #third  {
+      width: 650px; height: 450px;
+      
+      margin-left: 140px;
+     }
+     #fourth  {
+      width: 650px; height: 450px;
+     
+      margin-right: 10px;
+     }
+     #Copyright {
+      text-align: center;
+      font-size: x-small;
+     }
+
+    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Cinzel&family=Indie+Flower&family=Lobster&family=Lora:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="title">
+      <h1>Enjoy While it lasts</h1>
+    </div>
+    
+    <div id="allim">
+      <img id="first" src="./assets/IMG_2872.JPG">
+      <img id="second" src="./assets/IMG_5358.jpeg">
+      <img id="third" src="./assets/IMG_6394.JPG">
+      <img id="fourth" src="./assets/IMG_6519.jpeg">
+    </div>
+    <div id="para">
+      <p>Life is an adventure and traveling is only one of the journey that keeps asking for more destination <br><br>
+      Suran Rai</p>
+    </div>
+    <div id="Copyright">
+      <footer>
+        <p> Copyright © 2023 @Suran Rai. All right reserved </p>
+      </footer>
+    </div>
+    
+   
+  </body>
+</html>
